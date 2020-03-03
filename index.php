@@ -17,12 +17,14 @@ include  'products.php';
 <body>
 <?
 
-$product1 = new ProductVat(230, 'derrr');
+$product1 = new ProductVat(25, 'derrr');
+$product2 = new ProductVat(33, 'brypp');
 echo $product1->vat;
-var_dump($product1);
+
 
 ?>
-
+<? var_dump($product1); ?> <br>
+<? var_dump($product2); ?>
     
 </body>
 </html>
