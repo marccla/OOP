@@ -3,7 +3,7 @@
     class Product {
         // Properties
         public $vat = 0.25;
-        public $foodVat = 0.15;
+        public $foodVat = 0.12;
         public $priceWithVat;
         public $priceWithFoodVat;     
     }
@@ -12,7 +12,7 @@
         // Moar properties
         public $name;
         public $price;
-        // Constructor
+        // Constructor - (((We take the price and * with the Vat's)))
         public function __construct($price, $name) {
             $this->price = $price;
             $this->name = $name;

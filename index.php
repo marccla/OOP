@@ -17,7 +17,7 @@ include  'products.php';
 <body>
 <?
 
-$product1 = new ProductVat(10, 'derrr');
+$product1 = new ProductVat(230, 'derrr');
 echo $product1->vat;
 var_dump($product1);
 
