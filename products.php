@@ -2,16 +2,24 @@
 
     class Product {
         // Properties
-        public $name;
-        public $price;
-        public $priceVat
-        // Method
-        public function setname($price) {
-            $this->price = $price;
-        }
-
+        public $vat = 0.25;
+        public $foodVat = 0.15;
+        public $priceWithVat;
+        public $priceWithFoodVat;     
     }
 
+    class ProductVat extends Product {
+        // Moar properties
+        public $name;
+        public $price;
+        // Constructor
+        public function __construct($price, $name) {
+            $this->price = $price;
+            $this->name = $name;
+            $this->priceWithVat = $this->price * $this->vat + $this->price;
+            $this->priceWithFoodVat = $this->price * $this->foodVat + $this->price;
+}
+}
 
 
 

@@ -1,4 +1,5 @@
 <? 
+include  'products.php';
 
 
 
@@ -14,6 +15,14 @@
     <title>Document</title>
 </head>
 <body>
+<?
+
+$product1 = new ProductVat(10, 'derrr');
+echo $product1->vat;
+var_dump($product1);
+
+?>
+
     
 </body>
 </html>
