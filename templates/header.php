@@ -1,6 +1,10 @@
-<? 
 
-include  'includes/nav.php';
+<? 
+include  'includes/dbconfig.php';
+include  'includes/test.php';
+include  'includes/articles.php';
+// var_dump($articles->title);
+// print_r('$navbar->links');
 ?>
 
 <!DOCTYPE html>
@@ -8,18 +12,12 @@ include  'includes/nav.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>Workshop-dag02</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<? 
-foreach($navbar->links as $link) :
-    echo "<a href=". $link .">". $link ."</a> <br>";
-endforeach;
 
 
-?>
 
-</nav>
+

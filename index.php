@@ -1,14 +1,17 @@
+<? include 'templates/header.php' ?>
+
 <? 
-include  'includes/user.php';
-include  'templates/header.php';
-var_dump($navbar->links);
-// print_r('$navbar->links');
-?>
+    // foreach($articles->title as $articleTitle) :
+    // echo "<h1>". $articleTitle . "</h1>";
+    // endforeach;
+    // var_dump($article1);
 
-
-
-
-
+    
+    
+    var_dump($testObj->getUsers());
+        
+    
+    ?>
 
 
 
