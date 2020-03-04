@@ -10,7 +10,7 @@ class Navbar {
 $navbar = new Navbar($links);
 
 $navbar->links = [
-  'www.google.se',
+  'www.google.se', 
   'www.facebook.com',
   'www.instagram.com'
 ]; ?>
