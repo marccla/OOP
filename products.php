@@ -18,7 +18,7 @@
             $this->name = $name;
             $this->priceWithVat = $this->price * $this->vat + $this->price;
             $this->priceWithFoodVat = $this->price * $this->foodVat + $this->price;
-    }
+    } // Do a public function instead of above, keep construct clean for using the properties later.
 }
 
 
