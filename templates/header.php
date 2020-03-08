@@ -1,10 +1,8 @@
 
 <? 
-include  'includes/dbconfig.php';
-include  'includes/test.php';
-include  'includes/articles.php';
-// var_dump($articles->title);
-// print_r('$navbar->links');
+// include  '/.php';
+
+
 ?>
 
 <!DOCTYPE html>
